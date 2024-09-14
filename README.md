@@ -1,14 +1,14 @@
 # HR-Dasboard-Analysis
 Employee data including demographics, performance, and attrition information, suitable for employee performance analysis.
 
-Project Overview
+# Project Overview
 This project focuses on analyzing employee data to provide actionable insights for the HR department. Using SQL queries, we explore key HR metrics such as attrition rates, compensation trends, job satisfaction, and more. These insights help improve decision-making regarding workforce management, retention, and diversity.
 
-Dataset
+# Dataset
 The dataset used in this project is an HR Employee Attrition dataset containing information about employee demographics, job roles, compensation, and attrition status.
 
-Key Columns:
-Attrition: Whether an employee has left the company (Yes/No)
+# Key Columns:
+- Attrition: Whether an employee has left the company (Yes/No)
 JobRole: The role of the employee within the company
 Gender: Gender of the employee (Male/Female)
 MonthlyIncome: The monthly salary of each employee
