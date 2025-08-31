@@ -55,8 +55,8 @@ ORDER BY JobRole, Gender;
 
 # Tools & Technologies
 - SQL: For querying the database and performing data analysis.
-- Python/Pandas: Used for data preprocessing before running SQL queries (optional).
-- Power BI/Tableau (optional): For data visualization of the insights gathered.
+- Python/Pandas: Used for data preprocessing before running SQL queries.
+- Power BI/Tableau: For data visualization of the insights gathered.
 
 # Conclusion
 This project helps the HR department gain valuable insights into factors affecting employee retention, compensation, and workforce diversity. By analyzing these metrics, the organization can develop more effective HR strategies to improve employee satisfaction and reduce attrition.
