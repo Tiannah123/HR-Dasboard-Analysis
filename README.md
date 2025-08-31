@@ -34,25 +34,6 @@ And more...
 - Insights Generation: Interpret the results from SQL queries to generate actionable insights.
 - Documentation: Summarize the project findings and provide business recommendations based on the analysis.
 
-# SQL Queries
-- Example Query 1: Attrition Rate by Department
-SELECT 
-    Department,
-    SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS EmployeesLeft,
-    COUNT(*) AS TotalEmployees,
-    (SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0) / COUNT(*) AS AttritionRate
-FROM EmployeeTable
-GROUP BY Department;
-
-- Example Query 2: Gender Distribution Across Job Roles
-SELECT 
-    JobRole,
-    Gender,
-    COUNT(*) AS EmployeeCount
-FROM EmployeeTable
-GROUP BY JobRole, Gender
-ORDER BY JobRole, Gender;
-
 # Tools & Technologies
 - SQL: For querying the database and performing data analysis.
 - Python/Pandas: Used for data preprocessing before running SQL queries.
